@@ -8,8 +8,8 @@ Bdata = []
 def intvalidation(integer):
     try:
         intinteger = int(integer)
-        if intinteger <= 2:
-            print("Must have more than 2 equations, this program handles 3 variables.")
+        if intinteger != 3:
+            print("Must have 3 equations, this program handles 3 variables.")
             menu()
         else:
             equationsolver(intinteger)
